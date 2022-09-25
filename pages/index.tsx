@@ -47,7 +47,7 @@ const Home = () => {
     <>
       <Head>
         <title>Rajaneesh R</title>
-        <link rel="icon" type="image/x-icon" href="/rajaneesh.png" />
+        <link rel="icon"  href="/favicon.ico" />
       </Head>
       {(isDesktop || isLaptop || isBigScreen) && <Desktop quots={quots} />}
       {(isMobileDevice || isTabletDevice) && !(isDesktop || isLaptop || isBigScreen) && <Mobile quots={quots} />}

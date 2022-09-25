@@ -21,21 +21,6 @@
     margin-inline-end: 0px;
     -webkit-text-size-adjust: 100%;
   }
-  // @media only screen and (max-width: 570px) {
-  //   .flex {
-  //     margin-left: 50px;
-  //     justify-content: space-between;
-  //     align-items: stretch;
-  //   }
-  //   .tagline {
-  //     font-size: calc(100vw - 93vw);
-  //   }
-  //   .flexSocial {
-  //     a:not(:nth-child(1)) {
-  //       margin-left: 5px;
-  //     }
-  //   }
-  // }
   margin-left: 5%;
   margin-right: 5%;
   display: flex;
@@ -85,5 +70,8 @@
   }
   .stackoverflow:hover {
     color: #e16e14;
+  }
+  .linkedin:hover {
+    color: #0a66c2;
   }
 }

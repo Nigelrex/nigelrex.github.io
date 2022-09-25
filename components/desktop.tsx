@@ -1,7 +1,6 @@
-import type { NextPage } from "next";
-import style from "../styles/desktop.module.scss";
-import { FaGithub, FaDiscord, FaReddit, FaTwitter, FaTwitch, FaSpotify, FaInstagram, FaStackOverflow } from "react-icons/fa";
 import { IconContext } from "react-icons";
+import { FaDiscord, FaGithub, FaInstagram, FaLinkedin, FaReddit, FaSpotify, FaStackOverflow, FaTwitch, FaTwitter } from "react-icons/fa";
+import style from "../styles/desktop.module.scss";
 type props = {
   quots: Array<any>;
 };
@@ -20,7 +19,7 @@ const Desktop = ({ quots }: props) => {
           <a href="https://twitter.com/rajaneesh__r" className={style.twitter}>
             <FaTwitter />
           </a>
-          <a href="https://discord.com/users/738032578820309072" className={style.discord}>
+          <a href="https://discord.com/invite/Gmxxw6KfEF" className={style.discord}>
             <FaDiscord />
           </a>{" "}
           <a href="https://github.com/r-rajaneesh" className={style.github}>
@@ -40,6 +39,9 @@ const Desktop = ({ quots }: props) => {
           </a>
           <a href="https://stackoverflow.com/users/15005026/rajaneesh-r">
             <FaStackOverflow className={style.stackoverflow} />
+          </a>{" "}
+          <a href="https://www.linkedin.com/in/rajaneesh-r-1640a124a/">
+            <FaLinkedin className={style.linkedin} />
           </a>
         </div>
       </IconContext.Provider>
