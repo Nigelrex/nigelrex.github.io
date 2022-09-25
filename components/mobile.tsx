@@ -10,7 +10,7 @@ const Mobile = ({ quots }: props) => {
     <>
       <div className={style.flex}>
         <div className={style.tagline}>
-          <h2 className={style.intro}>Hello, I&apos;m &Gamma;&alpha;j&alpha;&eta;&epsilon;&epsilon;sh &Gamma;!</h2>
+          <h2 className={style.intro}>Hello, I&apos;m Rajaneesh R!</h2>
 
           {quots.map((e) => e)[Math.floor(Math.random() * quots.length)]}
         </div>
