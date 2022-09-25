@@ -1,0 +1,68 @@
+.flex {
+  margin-top: 50%;
+  .intro {
+    color: mediumpurple;
+    overflow: hidden;
+    font-size: 0.7em;
+  }
+  .tagline {
+    color: snow;
+    font-size: calc(100vw - 93vw);
+    box-sizing: border-box;
+    font-weight: 800;
+    overflow: hidden;
+    text-align: justify;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    -webkit-text-size-adjust: 100%;
+  }
+  margin-left: 50px;
+  margin-right: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.flexSocial {
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .iconSize {
+    width: calc(100vw - 93vw);
+  }
+  a:not(:nth-child(1)) {
+    margin-left: 15px;
+  }
+  .spotify:hover {
+    color: #1db954;
+  }
+  .discord:hover {
+    color: #5661f5;
+  }
+  .github:hover {
+    color: #babbbd;
+  }
+  .twitter:hover {
+    color: #1c9aef;
+  }
+  .reddit:hover {
+    color: #ff4501;
+  }
+  .twitch:hover {
+    color: #a970ff;
+  }
+  .instagram:hover {
+    background: #f09433;
+    background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+    background: -webkit-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+    background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+    border-radius: 25%;
+  }
+  .stackoverflow:hover {
+    color: #e16e14;
+  }
+}

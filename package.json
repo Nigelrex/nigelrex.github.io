@@ -1,42 +1,27 @@
 {
-  "name": "nigelrex.github.io",
+  "name": "r-rajaneesh.github.io",
+  "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "export": "next export",
-    "lint": "next lint",
-    "run": "node server.js"
+    "lint": "next lint"
   },
-  "type": "module",
   "dependencies": {
-    "@mdx-js/loader": "^2.0.0",
-    "@next/mdx": "^12.0.10",
-    "@nigelrex/functions": "^1.0.0",
-    "better-sqlite3": "^7.5.0",
-    "body-parser": "^1.19.1",
-    "cors": "^2.8.5",
-    "express": "^4.17.2",
-    "fs": "^0.0.1-security",
-    "fs-extra": "^10.0.0",
-    "jquery": "^3.6.0",
-    "lodash": "^4.17.21",
-    "moment": "^2.29.1",
-    "net": "^1.0.2",
-    "next": "^12.1.0",
-    "path": "^0.12.7",
-    "react": "17.0.2",
-    "react-dom": "17.0.2",
-    "react-icons": "^4.3.1",
-    "react-router": "^6.2.1",
-    "react-router-dom": "^6.2.1",
-    "socket.io": "^4.4.1",
-    "socket.io-client": "^4.4.1",
-    "tls": "^0.0.1",
-    "typewriter-effect": "^2.18.2"
+    "next": "12.3.1",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-icons": "^4.4.0",
+    "react-responsive": "^9.0.0"
   },
   "devDependencies": {
-    "eslint": "^8.12.0"
+    "@types/node": "18.7.18",
+    "@types/react": "18.0.20",
+    "@types/react-dom": "18.0.6",
+    "eslint": "8.23.1",
+    "eslint-config-next": "12.3.1",
+    "sass": "^1.55.0",
+    "typescript": "4.8.3"
   }
 }
